@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+.boxcenter{
+    margin: 3px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home{
+    margin-top:20px ;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin-left: 10px;
+    background: rgb(102, 176, 90);
+    position: absolute;
+    transition: 0.5s;
+}
+.home a:hover{
+    background-color: rgb(38, 97, 29) ;
+    text-decoration: underline;
+}
+.user{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background: #ccc;
+}
+
+
+nav ul{
+    overflow: hidden;   
+     display: flex;     
+     justify-content: space-evenly;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 25px 18px  ;
+    background: rgb(45, 105, 183);
+    border: 1px solid #ccc;
+    transition: 0.5s;   
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    background: rgb(11, 53, 108);
+    border: 1px solid #383535;
+
+}
+nav li a{
+    text-decoration: none;  
+    color: white;
+    margin: 0 30px;     
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+nav li a i{
+    margin-right: 7px;
+}
+.tieude{
+    margin: 15px auto;
+    width: 1450px;
+    display: flex;
+    justify-content: space-between;
+    background: #ccc;
+    padding: 18px 15px;
+    border-radius: 5px;
+}
+.tieude h4 .ds:hover{text-decoration: underline;}
+
+.lich{
+    display: flex;
+    font-weight: 700;
+}
+
+.danhmuc{
+    width: 1450px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: #ccc;
+}
+.themmoi{
+    height: 80px;
+    line-height: 80px;    
+    border-bottom:1px solid #e8d7d7 ;
+
+}
+
+.them{
+    height: 80px;
+    line-height: 80px;    
+    border-bottom:1px solid #e7e8d7 ;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 20px;
+    
+}
+.themmoi a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0 15px;
+    padding: 15px 10px;
+    border-radius: 8px;
+    background: rgb(117, 233, 117);
+}
+.danhsach{
+    margin: 15px 15px;
+    background-color: white;
+    border-radius: 3px;
+    
+}
+table{  
+    width: 100%;
+    border-collapse: collapse;
+}
+table tr th{
+    border:1px solid #e8d7d7 ;
+    padding: 20px;
+    text-align: center;
+
+}
+table th:nth-child(1){
+    width: 5%;
+}
+table th:nth-child(2){
+    width: 20%;
+}
+table th:nth-child(3){
+    width: 15%;
+}
+table th:nth-child(4){
+    width: 10%;
+}
+table th:nth-child(5){
+    width: 15%;
+}
+table th:nth-child(6){
+    width: 10%;
+}
+table th:nth-child(7){
+    width: 10%;
+}
+table th:nth-child(8){
+    width: 20%;
+}
+table tr td{
+    border:1px solid #e8d7d7 ;
+    padding: 10px 20px ;
+    text-align: center;
+}
+table tr td a{
+    text-decoration: none;
+}
+table tr td a i{
+    background: #ccc;
+    margin: 0 3px;
+    padding: 8px;
+    border-radius: 5px;
+}
+/* Thêm mới danh mục*/
+.taodm{
+    margin: 20px;
+}
+.dm{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.gach{
+    font-weight: 700;
+    font-size: 15px;
+}
+.dm p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.dm input{
+    width: 300px;
+    padding: 15px 2px;
+    border-radius: 5px;
+    border: none;
+}
+.nut{
+    margin-top:20px;
+}
+.nut input{
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.nut input[type = "submit"]{
+    color: rgb(6, 62, 6);
+    background: rgb(69, 213, 69);
+}
+.nut input[type = "button"]{
+    color: rgb(91, 9, 9);
+    background:rgb(243, 145, 145);
+}
+.nut input[type = "submit"]:hover{
+    color: rgb(152, 196, 152);
+    background: rgb(6, 62, 6);
+}
+.nut input[type = "button"]:hover{
+    color:rgb(222, 179, 179);
+    background: rgb(91, 9, 9);
+}
+/* Bình luận*/
+/* sản phẩm */
+.from form{
+    margin: 15px auto;
+}
+.from form input[type = "text"]{
+    width: 600px;
+    padding: 5px 15px;
+    border: none;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.from form select{
+    padding: 5px 10px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+.from form .donhang{
+    padding: 5px 15px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 10px 5px 0 5px;
+    cursor: pointer;
+
+}
+
+.from form input[type = "submit"]{
+    padding: 5px 30px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.from form input[type = "submit"]:hover{
+    background: orange;
+    color: white;
+}
+/* Tài khoản*/
+.taotk{
+    margin: 20px;
+}
+.taotk form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.anh{
+    margin-bottom: 10px;
+}
+.anh p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.anh input{
+    border-radius: 5px;
+    border: none;
+}
+.anhmoi{
+    margin-bottom: 10px;
+}
+.anhmoi p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.anhmoi input{
+    padding: 0 180px 100px 0;
+    border-radius: 5px;
+    border: none;
+}
+.anhmoi textarea{
+    width: 400px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 100px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.css{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
